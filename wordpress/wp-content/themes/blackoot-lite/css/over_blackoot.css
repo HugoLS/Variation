@@ -1,0 +1,105 @@
+/*
+	Affiche une image derrière le titre
+*/
+#header{
+	background-image: url("http://raspi-treb.suroot.com:8080/Projects/VariationXXI/Site/wordpress/wp-content/uploads/2015/04/1187835677_Concert2_1280x1024_13-300x240.jpg");
+	background-position: center center;
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
+-o-background-size: 100% 100%;        /* Opera 9.5 */
+-webkit-background-size: 100% 100%;   /* Safari 3.0 */
+background-size: 100% 100%;   
+}
+
+/* 
+	Augmente la taille du fil d'ariane
+*/
+#breadcrumbs{
+	font-size: 15px;
+} 
+
+/*
+	Décallage du curseur de recherche pour éviter la superposition avec le 
+	label de recherche
+*/
+.tophead #searchform #s{
+	padding-right: 5px;
+	padding-left: 20px;
+}
+
+
+/* 
+	Décallage du label de recherche un peu sur la droite pour que ca ne fasse
+	pas de superposition du label avec le rectangle orange
+*/
+#searchform label:after{
+	padding-left: 3px;
+}
+
+/*
+	mettre main-wrap en blanc
+*/
+#main-wrap{
+	background: #d3d3d3;
+}
+
+#tophead-wrap{
+	background: #aaa;
+}
+
+#main-content{
+	color: #222;
+}
+
+#page-title{
+	background: #ddd;
+
+}
+
+#page-title h1{
+	color: #444;
+}
+
+#nav-wrap{
+	background: #d3d3d3;
+}
+
+#logo .site-title{
+	color: #222;
+}
+
+#navbar{
+	font-weight: bold;
+}
+
+#navbar ul li a{
+	color: #222;
+}
+
+
+#navbar ul li a:visited{
+	color: #222;
+}
+
+#navbar ul li ul li{
+	background: #aaa;
+}
+
+#navbar ul li ul li a{
+	color: #222;
+}
+
+.cartouche h1{
+	color: #222;	
+}
+
+
+#breadcrumbs{
+	color: #222;
+}
+
+#breadcrumbs a{
+	color: #222;
+}
